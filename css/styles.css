@@ -1,0 +1,172 @@
+/* TITLE */
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.navbar-nav{
+  margin-left: 70%;
+}
+
+body {
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 20px 18px;
+
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button{
+  margin: 5% 3% 15% 0;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 10%;
+
+}
+
+/* FEATURES */
+
+#features{
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.tick{
+  font-size: 4rem;
+  color: #ef8172;
+  margin-left: auto;
+  padding: 7%;
+}
+.tick:hover{
+  color: #ff4c68;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/* TESTIMONIALS */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  padding: 5%;
+}
+
+
+
+
+/* PRESS */
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.testimonial-tech{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 4% 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.price-col{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px) {
+  .title-image{
+
+    transform: none;
+    position: static;
+  }
+  #title{
+    text-align: center;
+
+  }
+}
+
+/* last */
+ #cta{
+   background-color: #ff4c68;
+   text-align: center;
+   padding: 7% 20%;
+   color: #fff;
+
+ }
+.foot{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 2%;
+}
+
+/* footeer */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.foot-icon{
+  padding: 1%;
+  font-size: 3rem;
+}
+.foot-icon:hover{
+  color: #ff4c68
+}
